@@ -1,5 +1,5 @@
 N = 2000000
-crossed =array(dtybe=bool)
+crossed = [False]*N
 summ=0
 i = 2
 while i<N:
@@ -11,4 +11,4 @@ while i<N:
     i = i + 1
     while i < N and crossed[i]:
         i = i + 1
-print(sum)
+print(summ)
